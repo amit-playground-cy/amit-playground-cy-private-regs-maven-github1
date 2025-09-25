@@ -14,7 +14,6 @@
     <repositories>
         <repository>
             <id>github</id>
-            <name>GitHub Packages for amit-playground-cy</name>
             <url>https://maven.pkg.github.com/amit-playground-cy/my-lib</url>
         </repository>
     </repositories>
