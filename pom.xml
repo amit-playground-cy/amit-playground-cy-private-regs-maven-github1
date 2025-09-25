@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example.project</groupId>
+    <artifactId>my-app</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>My App</name>
+    <description>A simple project using a GitHub private package</description>
+
+    <repositories>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages for amit-playground-cy</name>
+            <url>https://maven.pkg.github.com/amit-playground-cy/my-lib</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+          <groupId>com.example</groupId>
+          <artifactId>my-lib</artifactId>
+          <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+</project>
