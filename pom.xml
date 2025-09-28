@@ -11,6 +11,7 @@
     <name>My App</name>
     <description>A simple project using a GitHub private package</description>
 
+  
     <repositories>
         <repository>
             <id>github</id>
